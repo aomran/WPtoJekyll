@@ -1,0 +1,31 @@
+---
+layout: post
+title:  HackerYou Summer Academy Week 1 - It's a Bootcamp
+date:   2013-07-05 19:35:20
+categories: bootcamp hackeryou learning-software learning-to-code summer summer-academy teach-code
+---
+HackerYou started unofficially on July 1st (Canada Day)! My wife and I walked across the bridge from our side (Gatineau) into Ottawa to meet the diverse people in the HackerYou program. The first Summer Academy cohort is rather impressive, we are diverse in almost every way (gender, race, nationality, background, goals etc.) and it seems we're all determined to come out of this program with a new set of skills and a long list of new friends.
+## Day 1 - meet, greet and vagrant up
+We spent the beginning of the first day learning more about our classmates. Everyone in the program is interesting, smart, dedicated, and friendly -- I have no idea how HackerYou managed to pull that off. The rest of the night was spent learning about the command line and getting a taste of Ruby on Rails. I have done quite a number of programming courses and one of the main challenges is finding a way to get all students on the same development environment. The edX SASS course used virtual box but we had to open up a linux user interface and do all of our work in it, a good idea but still not ideal. Edward and Nick (Shopify geniuses) found a more elegant solution, they set up a virtual machine using vagrant. Now all students have the same environment for running code but can use their own os (mac, windows etc.) for writing code. The nerd in me just loves what they were able to do. No need to install ruby, rails, git, etc -- we just ssh into our virtual machine and run our code!
+
+I started using the command line about 9-10 months ago, so I already knew the basic commands (cd, ls, pwd, mkdir) and I was familiar but not 100% comfortable with others (mv, rm, rmdir, cat and cp). What was completely new was the concept of pipes, redirects and appends -- the nerd in me just loves all of the things we can do with these new concepts.
+
+Edward &amp; Nick showed us the obligatory "Get excited - lets build an app in 15 minutes with Rails!". I have built small rails apps before so this wasn't new but fun nonetheless. The rest of the time was spent working on a mini rails app of our choice (well anything time/date related).
+## Day 2 - Git and Present
+My understanding of Git was ok but to be honest I haven't ventured too deep. I was able to add, commit and push and felt pretty good about it. My goal for this summer is to really push the pace and get a deeper understanding of all the topics discussed. So my focus for the second day was on more complex techniques in git (branching, merging, reversing changes, forking and pulling changes from a remote).
+
+The rest of the time was spent working on my Rails time app. I ended up creating a simple rails app that takes in birth dates as input and then calculates how many days the person has been alive. The app then finds out how many times the person could have done Summer Academy if they gave up sleep. A pointless app but hey it works and I got to present it to the class! Some of the presenters showed off their impressive design skills (not a strength for me but I'll work on it).
+## Day 3 - Ruby and Sinatra
+Mike is a mentor at HackerYou that I met in the local Ottawa Ruby Meetup. He's interested in education (as am I) so it was interesting to see him give a mini lesson on the command line and Ruby basics. I thought he did a good job "demystifying" the command line. The command line is just a way to run programs and unix programs are numerous but they 'ideally' just do one thing well. So 'ls' is a program that lists files/folders. The command line looks up these programs in the $PATH (a colon separated list of paths) until it finds the program.
+
+My understanding of Ruby is at least at the intermediate level so while most students did the "Ruby in 100 Minutes" tutorial I took the time to do a more challenging exercise. I created a little Ruby app that uses the Twitter gem to connect to the Twitter API. The app doesn't do anything impressive but I learned a lot about API authentication, JSON parsing, requiring ruby files and gems, etc. For the rest of the time (until the evening lesson) I pair programmed with my wife, we built a little ruby program that printed the lyrics to the "99 Bottles of Beer" folk song.
+
+During the scheduled evening lesson for the day, Nick used the Sinatra gem to explain the concept of REST and we rebuilt the controller portion of a Rails app. I personally thought that this was an excellent exercise. Rails has a lot of "magic" so any opportunity to see how things really work is welcome.
+## Day 4 - Time to Teach
+Saying that I love to teach is a huge understatement, I like to take every opportunity to teach what I know. This morning, Heather decided to split the group up into "teachers" and "learners" and we spent most of the day working on Ruby, Rails and Git exercises together. I got the opportunity to share what I know and I learned a LOT. I learned more today than the previous three days mainly because the process of articulating what I know helps build and strengthen connections.
+
+I did make a major breakthrough today, I got my first ever pull request and successfully merged the contribution into a repository! As silly as it may sound, the experience was exhilarating (thank you Nachiket and Jamie!).
+## Day 5 - Back to the Future?
+Tomorrow will be the fifth and final day for this week. I'm certainly looking forward to it and for the rest of the summer. My goal is to keeping pushing myself this summer, even if it takes me outside of my comfort zone. I got the courage to talk to a Shopify employee today… so that's a start (I'm not too social so this is a triumph that I should get a star sticker for).
+
+It's amazing what a program like HackerYou can do in a short amount of time. After merely **four days** I feel that I can navigate the command line much better, I have more experience collaborating on a git repo and I have more confidence with Ruby/Rails/Sinatra.
