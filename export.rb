@@ -40,8 +40,10 @@ class WordpressToJekyll
 
   def get_categories(post)
     categories = []
-    post.xpath("category/@nicename").each do |category|
-      categories << category.value
+    post.xpath("category").each do |category_or_tag|
+      if category_or_tag.attributes["domain"].value == "category"
+        categories << category_or_tag.children.text
+      end
     end
     categories * " "
   end
