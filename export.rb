@@ -2,6 +2,7 @@ require "upmark"
 require "nokogiri"
 require "time"
 require 'sanitize'
+require 'fileutils'
 
 class WordpressToJekyll
 
@@ -71,6 +72,7 @@ class MarkdownWriter
 
   def initialize(folder)
     @folder = folder
+    FileUtils.mkdir_p @folder
   end
 
   def write_to_file(name, date, content)
