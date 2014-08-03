@@ -89,9 +89,3 @@ end
 xml_file = File.new("export.xml")
 markdown_writer = MarkdownWriter.new('posts')
 WordpressToJekyll.new(xml_file, markdown_writer).parse
-
-# Export wordpress xml
-# git clone
-# bundle install
-# ruby export.rb
-
